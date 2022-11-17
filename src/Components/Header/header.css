@@ -1,0 +1,53 @@
+/* Header Styling begins here */
+header {
+    background-color: rgba(0,0,0,70%);
+    display: flex;
+    padding: 6px;
+    justify-content: space-between;
+    color: white;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: fixed;
+}
+
+header a, header a:visited, header a:hover, header a:active {
+    color: inherit;
+    font-size: 1.2em;
+}
+
+/* header left side properties applied in the next 3 selectors */
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px 20px 10px 10px;
+    margin-left:10px;
+    width: 50%;
+}
+
+header div img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+header div h2 {
+    font-size: 1.8em;
+    padding-left: 15px;
+}
+
+/* header right side properties applied in next 2 selectors */
+header nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 15px;
+    font-size: 1.3em;
+    justify-content:end;
+    width: 40%;
+    margin-right: 40px;
+}
+
+header nav a {
+    padding: 10px;
+}
