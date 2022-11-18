@@ -1,26 +1,19 @@
 import './BodyNav.css'
 
-export default function BodyNav() {
+export default function BodyNav({page, pageSwapHandler}) {
     return (
-        <ul className="nav nav-pills nav-fill p-4">
+        <ul className="nav nav-pills nav-fill body-nav" id="body-Nav">
             <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Active</a>
-            </li>
-            <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-                <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Action</a></li>
-                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr className="dropdown-divider"/></li>
-                    <li><a className="dropdown-item" href="#">Separated link</a></li>
-                </ul>
+                <a className={(page === 'About Me') ? "nav-link active" : "nav-link"} aria-current="page" style={{color: 'white', fontSize: '1.5em'}} onClick = {()=>pageSwapHandler('About Me')} href="#body-Nav">About Me</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">Link</a>
+                <a className={(page === 'Projects') ? "nav-link active" : "nav-link"} aria-current="page" onClick = {()=>pageSwapHandler('Projects')} style={{color: 'white', fontSize: '1.5em'}} href="#body-Nav">Projects</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link">Disabled</a>
+                <a className={(page === 'Resume') ? "nav-link active" : "nav-link"} onClick = {()=>pageSwapHandler('Resume')} style={{color: 'white', fontSize: '1.5em'}} href="#body-Nav">Resume</a>
+            </li>
+            <li className="nav-item">
+                <a className={(page === 'Contact Me') ? "nav-link active" : "nav-link"} onClick = {()=>pageSwapHandler('Contact Me')} style={{color: 'white', fontSize: '1.5em'}} href="#body-Nav">Contact Me</a>
             </li>
         </ul>
     )
