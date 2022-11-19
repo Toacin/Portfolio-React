@@ -1,14 +1,21 @@
 import './ContactForm.css';
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-// import {bootstrap} from 'bootstrap';
-import { Modal } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 export default function ContactForm() {
     const [subject, setSubject] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-    const myModal = new Modal('#myModal');
+    const [show, setShow] = useState(false);
+    const [emailDelivery, setEmailDelivery] = useState('')
+
+    const handleClose = () => {
+        setShow(false);
+        setEmailDelivery('');
+    };
+    const handleShow = () => (setShow(true));
 
     const form = useRef();
 
@@ -32,9 +39,12 @@ export default function ContactForm() {
         emailjs.sendForm('service_7dxn4mu', 'template_peazy7g', form.current, 'AG-zuxNUpXpaeHgox')
         .then((result) => {
             console.log(result.text);
-            myModal.show();
+            setEmailDelivery("success");
+            handleShow();
         }, (error) => {
             console.log(error.text);
+            setEmailDelivery("rejected");
+            handleShow();
         });
         setSubject("");
         setEmail("");
@@ -65,22 +75,17 @@ export default function ContactForm() {
                     </div>
                 </form>
             </div>
-            <div className="modal fade" id="myModal" tabIndex={"-1"} aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div className="modal-dialog">
-                    <div className="modal-content">
-                        <div className="modal-header">
-                            <h1 className="modal-title fs-5" id="exampleModalLabel">Message Received!</h1>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div className="modal-body">
-                            <p>Thank you for your message! I will reach back to you shortly.</p>
-                        </div>
-                        <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                    <Modal.Title>{(emailDelivery === "success")? "Message Received!": "Message Failed To Send"}</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>{emailDelivery === "success" ? "I'll reach out to you shortly": "Something went wrong, please email me directly at toacinp@gmail.com"}</Modal.Body>
+                <Modal.Footer>
+                    <Button variant="secondary" onClick={handleClose}>
+                        Close
+                    </Button>
+                </Modal.Footer>
+            </Modal>
         </>
     )
 }
