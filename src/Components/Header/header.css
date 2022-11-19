@@ -5,9 +5,9 @@ header {
     padding: 6px;
     justify-content: space-between;
     color: white;
-    font-family: monospace, Arial, Helvetica, sans-serif;
     width: 100%;
     position: fixed;
+    z-index: 3;
 }
 
 header a, header a:visited, header a:hover, header a:active {

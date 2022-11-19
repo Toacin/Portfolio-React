@@ -11,8 +11,8 @@ export default function BodyTop() {
                 <p><br/>Welcome to my personal porfolio! You can find my works and contact info down below.</p>
             </div>
             <div id="right-outgoing">
-                <a target="_blank" href="https://www.linkedin.com">LinkedIn↗</a>
-                <a target="_blank" href="https://www.github.com/Toacin">GitHub↗</a>
+                <a id="top-outgoing" target="_blank" href="https://www.linkedin.com">LinkedIn↗</a>
+                <a id="bottom-outgoing" target="_blank" href="https://www.github.com/Toacin">GitHub↗</a>
             </div>
         </section>
     )

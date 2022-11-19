@@ -10,6 +10,9 @@
 #about-me h3 {
     padding-right:40px;
     font-size: 4em;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 #about-me p {
@@ -18,4 +21,7 @@
     margin-left: 20px;
     border-left: 3px solid aqua;
     padding-left: 20px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
