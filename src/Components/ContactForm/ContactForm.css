@@ -1,7 +1,13 @@
+.form-header {
+    animation: fadeInAnimation ease 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 .customInput {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #9e9e9e;
+    border-bottom: 1px solid aqua;
     border-radius: 0;
     outline: none;
     min-height: 3rem;
@@ -19,11 +25,14 @@
     transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
     overflow: visible;
     color: white;
+    animation: fadeInAnimation ease 3.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .customTxtArea {
     background-color: transparent;
-    border: 1px solid #9e9e9e;
+    border: 1px solid aqua;
     border-radius: 0;
     outline: none;
     min-height: 2.3rem;
@@ -41,6 +50,9 @@
     transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
     overflow: visible;
     color: white;
+    animation: fadeInAnimation ease 4.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .formLabel {
@@ -66,10 +78,6 @@
     font-weight: normal;
 }
 
-.formLabel::before {
-    box-sizing: inherit;
-}
-
 .form-helper-text {
     position: relative;
     min-height: 18px;
@@ -80,12 +88,13 @@
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
+    animation: fadeInAnimation ease 4.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
-.form-helper-text::after {
-    opacity: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    box-sizing: inherit;
+.form-button {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
