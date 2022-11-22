@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.7705ba42.css",
-    "main.js": "/Portfolio-React/static/js/main.82cc2231.js",
+    "main.js": "/Portfolio-React/static/js/main.43003457.js",
     "static/js/787.aeca62f9.chunk.js": "/Portfolio-React/static/js/787.aeca62f9.chunk.js",
     "static/media/Background4.jpg": "/Portfolio-React/static/media/Background4.021434c62b3654f22679.jpg",
     "static/media/Background 3.jpg": "/Portfolio-React/static/media/Background 3.19eb774d6c67a452a08a.jpg",
@@ -12,13 +12,14 @@
     "static/media/ToacinsTechConnect.JPG": "/Portfolio-React/static/media/ToacinsTechConnect.54d43023206f3e704f95.JPG",
     "static/media/Skriptz.JPG": "/Portfolio-React/static/media/Skriptz.9efef5c275e45adea4b6.JPG",
     "static/media/Toacin-Patwary-Resume.pdf": "/Portfolio-React/static/media/Toacin-Patwary-Resume.982783d6ab8773895d53.pdf",
+    "static/media/bitmoji.jpg": "/Portfolio-React/static/media/bitmoji.20e1751c8dd19e0fdb43.jpg",
     "index.html": "/Portfolio-React/index.html",
     "main.7705ba42.css.map": "/Portfolio-React/static/css/main.7705ba42.css.map",
-    "main.82cc2231.js.map": "/Portfolio-React/static/js/main.82cc2231.js.map",
+    "main.43003457.js.map": "/Portfolio-React/static/js/main.43003457.js.map",
     "787.aeca62f9.chunk.js.map": "/Portfolio-React/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7705ba42.css",
-    "static/js/main.82cc2231.js"
+    "static/js/main.43003457.js"
   ]
 }
