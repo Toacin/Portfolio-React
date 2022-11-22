@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Toacin's Tech Connect  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents  
+* [Description](##Description)  
+* [Technologies](##Technologies)  
+* [Screenshot](##Screenshot)  
+* [Installation](##Installation)  
+* [License](##License)  
+* [Questions](##Questions)  
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Welcome to my portfolio! This portfolio was quite the passion project for me (who doesn't love to show off their work in a beautiful way!), so I hope you enjoy viewing my page as much as I enjoyed creating it.
 
-### `npm start`
+### Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Being my first react application, has been quite the learning experience, bringing together many of the previous front end technologies I've previously used but within a new context. Here are the major technologies used:
+* React
+* CSS
+* Bootstrap (Mostly for layouts and grid, most of the actual style created with custom CSS)
+* Materialize (Exclusively for form elements)
+* JSX
+Since beginning this journey as a developer, I've worked with so many technologies to create visually appealing applications, even alternative templating engines like handlebars. But I can confidently say React is here to say for my front end needs. JSX in particular is perhaps the easiest to work with for compiling HTML, and even easier to apply styles, all while maintaining a modularized file structure. I couldn't be happier that I chose to learn this javascript library, and I'm even more excited to learn alternative libraries.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Future Development
 
-### `npm test`
+This application will eventually host all my projects, but with pagination to avoid a cluttered screen.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployed Application
 
-### `npm run build`
+https://toacin.github.io/Portfolio-React/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshot
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Homepage
+![Homepage](./src/images/DeployedPage.JPG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+N/A visit deployed page to view site. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+No license
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Questions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any follow up questions, feel free to reach out at toacinp@gmail.com  
+GitHub: https://www.github.com/Toacin
