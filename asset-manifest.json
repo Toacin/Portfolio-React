@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.b8cd4eea.css",
-    "main.js": "/Portfolio-React/static/js/main.c7f7829f.js",
+    "main.css": "/Portfolio-React/static/css/main.7705ba42.css",
+    "main.js": "/Portfolio-React/static/js/main.82cc2231.js",
     "static/js/787.aeca62f9.chunk.js": "/Portfolio-React/static/js/787.aeca62f9.chunk.js",
-    "static/media/Background1.jpg": "/Portfolio-React/static/media/Background1.f8fde245c6490de1e934.jpg",
     "static/media/Background4.jpg": "/Portfolio-React/static/media/Background4.021434c62b3654f22679.jpg",
     "static/media/Background 3.jpg": "/Portfolio-React/static/media/Background 3.19eb774d6c67a452a08a.jpg",
-    "static/media/Phoenix-Background2.jpg": "/Portfolio-React/static/media/Phoenix-Background2.6b4b4cdc3b62b4b7ea41.jpg",
-    "static/media/Background 2.jpg": "/Portfolio-React/static/media/Background 2.0b31a51b32952a6b397f.jpg",
     "static/media/Updated-Profile-Picture.PNG": "/Portfolio-React/static/media/Updated-Profile-Picture.f983fd6efb1a8c46c3c7.PNG",
-    "static/media/Phoenix-Background4.jpg": "/Portfolio-React/static/media/Phoenix-Background4.7d78729b947117cb00d5.jpg",
-    "static/media/Phoenix-Background3.jpg": "/Portfolio-React/static/media/Phoenix-Background3.5bb36e18e50537694d31.jpg",
+    "static/media/WeatherPlanningDashboard.JPG": "/Portfolio-React/static/media/WeatherPlanningDashboard.62dbfe7f0d095c9c800d.JPG",
+    "static/media/CodingQuiz.JPG": "/Portfolio-React/static/media/CodingQuiz.71326202830b0a28ddd4.JPG",
+    "static/media/ReelSearch.JPG": "/Portfolio-React/static/media/ReelSearch.7bab03c5a32ec3d05aff.JPG",
+    "static/media/ToacinsTechConnect.JPG": "/Portfolio-React/static/media/ToacinsTechConnect.54d43023206f3e704f95.JPG",
+    "static/media/Skriptz.JPG": "/Portfolio-React/static/media/Skriptz.9efef5c275e45adea4b6.JPG",
     "static/media/Toacin-Patwary-Resume.pdf": "/Portfolio-React/static/media/Toacin-Patwary-Resume.982783d6ab8773895d53.pdf",
     "index.html": "/Portfolio-React/index.html",
-    "main.b8cd4eea.css.map": "/Portfolio-React/static/css/main.b8cd4eea.css.map",
-    "main.c7f7829f.js.map": "/Portfolio-React/static/js/main.c7f7829f.js.map",
+    "main.7705ba42.css.map": "/Portfolio-React/static/css/main.7705ba42.css.map",
+    "main.82cc2231.js.map": "/Portfolio-React/static/js/main.82cc2231.js.map",
     "787.aeca62f9.chunk.js.map": "/Portfolio-React/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8cd4eea.css",
-    "static/js/main.c7f7829f.js"
+    "static/css/main.7705ba42.css",
+    "static/js/main.82cc2231.js"
   ]
 }
