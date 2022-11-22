@@ -53,9 +53,9 @@ export default function ContactForm() {
 
     return (
         <>
-            <div className ="d-flex my-5">
-                <form ref={form} className ="offset-3 col-6 my-2" onSubmit={handleSubmit}>
-                    <div className ="d-flex justify-content-center flex-wrap my-5">
+            <div className ="d-flex py-5">
+                <form ref={form} className ="offset-3 col-6 py-2" onSubmit={handleSubmit}>
+                    <div className ="d-flex justify-content-center flex-wrap py-5">
                         <h2 className="text-light py-3 form-header">Send Me A Message!</h2>
                         <div className="d-flex col-10 justify-content-between m-3">
                             <div className ="col-5">

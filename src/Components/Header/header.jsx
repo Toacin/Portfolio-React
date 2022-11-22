@@ -1,5 +1,7 @@
-import './header.css'
-import ProfilePic from '../../images/Updated-Profile-Picture.PNG'
+import './header.css';
+import ProfilePic from '../../images/bitmoji.jpg';
+import {AiFillGithub, AiFillTwitterCircle, AiFillLinkedin} from 'react-icons/ai';
+
 
 export default function Header() {
     return (
@@ -9,9 +11,9 @@ export default function Header() {
                 <h2>Toacin Patwary</h2>
             </div>
             <nav>
-                <a href="#middle-section">About Me</a>
-                <a href="#middle-header">Works</a>
-                <a href="#footer">Contact</a>
+                <a rel="noreferrer" href="https://www.github.com/Toacin" target="_blank"><AiFillGithub/></a>
+                <a rel="noreferrer" href="https://www.linkedin.com" target="_blank"><AiFillLinkedin/></a>
+                <a rel="noreferrer" href="https://www.twitter.com/twaseeen" target="_blank"><AiFillTwitterCircle/></a>
             </nav>
         </header>
     )

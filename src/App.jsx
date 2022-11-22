@@ -8,6 +8,7 @@ import AboutMe from './Components/AboutMe/AboutMe'
 import ProjectWrapper from './Components/ProjectWrapper/ProjectWrapper';
 import Resume from './Components/Resume/Resume'
 import ContactForm from './Components/ContactForm/ContactForm';
+import Footer from './Components/Footer/Footer'
 import { useState } from 'react';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <BodyTop/>
       <BodyNav page={page} pageSwapHandler={pageSwapHandler}/>
       {renderInfo()}
+      <Footer/>
     </main>
   )
 }

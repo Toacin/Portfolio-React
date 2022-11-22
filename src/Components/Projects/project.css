@@ -57,25 +57,43 @@
 }
 
 #assignment2 {
-    background-image: url("../../images/Phoenix-Background2.jpg");
+    background-image: url("../../images/ToacinsTechConnect.JPG");
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     }
 
 #assignment3 {
-    background-image: url("../../images/Phoenix-Background3.jpg");
+    background-image: url("../../images/Skriptz.JPG");
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     }
 
 #assignment4 {
-    background-image: url("../../images/Phoenix-Background4.jpg");
+    background-image: url("../../images/ReelSearch.JPG");
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     }
 
 #assignment5 {
-    background-image: url("../../images/Background1.jpg");
+    background-image: url("../../images/CodingQuiz.JPG");
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     }
 
 #assignment6 {
-    background-image: url("../../images/Background\ 2.jpg");
+    background-image: url("../../images/WeatherPlanningDashboard.JPG");
+    animation: fadeInAnimation ease 3.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     }
 
 #assignment7 {
     background-image: url("../../images/Background\ 3.jpg");
+    animation: fadeInAnimation ease 3.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
