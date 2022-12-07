@@ -4,6 +4,18 @@ import Project from '../Projects/project'
 export default function ProjectWrapper() {
     let projectInfo = [
         {
+            id: "reactPortfolio", 
+            href: "https://github.com/Toacin/Portfolio-React", 
+            projectInfo: "I hope you enjoyed browsing through this portfolio as much as I enjoyed making it! This was made mostly fromm vanilla CSS save a couple components from Bootstrap, and a contact me form inspired from Materialize CSS. Click this box to view repository and learn more!",
+            projectTitle: "This Portfolio!"
+        },
+        {
+            id: "onlyDevs", 
+            href: "https://github.com/daniel-valean/OnlyDevs", 
+            projectInfo: "Get your project funded! Our motivation for this website is to establish a place for developers and startups to post the link to their application, a description of the application, and how donations would help them fulfill their vision. The webpage allows the user to sign up/log in and donate money to their preferred projects using stripe.",
+            projectTitle: "OnlyDevs"
+        },
+        {
             id: "assignment2", 
             href: "https://github.com/Toacin/Toacins-Tech-Connect", 
             projectInfo: "Get in the conversation! Toacin's Tech Connect is a blog site made for developers to communicate with eachother through public, forum-style feeds. Find a post interesting and want to comment on it, or want to make your own post? Create an account and start connecting with others!",

@@ -56,44 +56,58 @@
     visibility: visible;
 }
 
+#onlyDevs {
+    background-image: url("../../images/OnlyDevsPage.JPG");
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+
+#reactPortfolio {
+    background-image: url("../../images/ReactPortfolio.JPG");
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+
 #assignment2 {
     background-image: url("../../images/ToacinsTechConnect.JPG");
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 3.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     }
 
 #assignment3 {
     background-image: url("../../images/Skriptz.JPG");
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 3.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     }
 
 #assignment4 {
     background-image: url("../../images/ReelSearch.JPG");
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     }
 
 #assignment5 {
     background-image: url("../../images/CodingQuiz.JPG");
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     }
 
 #assignment6 {
     background-image: url("../../images/WeatherPlanningDashboard.JPG");
-    animation: fadeInAnimation ease 3.5s;
+    animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     }
 
 #assignment7 {
     background-image: url("../../images/Background\ 3.jpg");
-    animation: fadeInAnimation ease 3.5s;
+    animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }

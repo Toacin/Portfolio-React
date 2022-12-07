@@ -1,6 +1,6 @@
 import './Resume.css';
 import { SiHtml5, SiCss3, SiJavascript, SiJquery, SiBootstrap, SiNodedotjs, SiExpress, SiSequelize, SiHandlebarsdotjs, SiMongodb, SiPwa, SiReact, SiGraphql, SiGithub} from 'react-icons/si';
-import resume from '../../images/Toacin-Patwary-Resume.pdf'
+import resume from '../../images/Toacin_Patwary_Resume.pdf'
 
 
 export default function Resume() {

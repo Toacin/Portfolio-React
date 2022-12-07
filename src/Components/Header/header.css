@@ -10,9 +10,10 @@ header {
     z-index: 3;
 }
 
-header a, header a:visited, header a:hover, header a:active {
+.header-anchor, .header-anchor:visited, .header-anchor:hover, .header-anchor:active {
     color: inherit;
-    font-size: 1.2em;
+    font-size: 2em;
+    padding: 10px;
 }
 
 /* header left side properties applied in the next 3 selectors */
@@ -46,9 +47,4 @@ header nav {
     justify-content:end;
     width: 40%;
     margin-right: 40px;
-}
-
-header nav a {
-    padding: 10px;
-    font-size: 2em;
 }

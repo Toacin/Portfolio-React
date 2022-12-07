@@ -1,5 +1,5 @@
 import './AboutMe.css'
-import ProfilePic from '../../images/Updated-Profile-Picture.PNG'
+import ProfilePic from '../../images/Updated-Profile-Picture2.JPG'
 
 export default function AboutMe() {
     return (
