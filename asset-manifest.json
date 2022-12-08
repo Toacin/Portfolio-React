@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.f13b5ff8.css",
-    "main.js": "/Portfolio-React/static/js/main.e66546ab.js",
+    "main.js": "/Portfolio-React/static/js/main.d23a649c.js",
     "static/js/787.aeca62f9.chunk.js": "/Portfolio-React/static/js/787.aeca62f9.chunk.js",
     "static/media/Background4.jpg": "/Portfolio-React/static/media/Background4.021434c62b3654f22679.jpg",
     "static/media/Background 3.jpg": "/Portfolio-React/static/media/Background 3.19eb774d6c67a452a08a.jpg",
     "static/media/Updated-Profile-Picture2.JPG": "/Portfolio-React/static/media/Updated-Profile-Picture2.bb47812e35f71ccf8010.JPG",
     "static/media/WeatherPlanningDashboard.JPG": "/Portfolio-React/static/media/WeatherPlanningDashboard.62dbfe7f0d095c9c800d.JPG",
-    "static/media/Toacin_Patwary_Resume.pdf": "/Portfolio-React/static/media/Toacin_Patwary_Resume.9e9b83fda5250e09a024.pdf",
     "static/media/CodingQuiz.JPG": "/Portfolio-React/static/media/CodingQuiz.71326202830b0a28ddd4.JPG",
     "static/media/OnlyDevsPage.JPG": "/Portfolio-React/static/media/OnlyDevsPage.11b46487cef6eb1d60ff.JPG",
     "static/media/ReelSearch.JPG": "/Portfolio-React/static/media/ReelSearch.7bab03c5a32ec3d05aff.JPG",
     "static/media/ToacinsTechConnect.JPG": "/Portfolio-React/static/media/ToacinsTechConnect.54d43023206f3e704f95.JPG",
     "static/media/Skriptz.JPG": "/Portfolio-React/static/media/Skriptz.9efef5c275e45adea4b6.JPG",
     "static/media/ReactPortfolio.JPG": "/Portfolio-React/static/media/ReactPortfolio.8e15fab25f2465df4038.JPG",
+    "static/media/Toacin_Patwary_Resume.pdf": "/Portfolio-React/static/media/Toacin_Patwary_Resume.ef52e1342b2752938ff3.pdf",
     "index.html": "/Portfolio-React/index.html",
     "main.f13b5ff8.css.map": "/Portfolio-React/static/css/main.f13b5ff8.css.map",
-    "main.e66546ab.js.map": "/Portfolio-React/static/js/main.e66546ab.js.map",
+    "main.d23a649c.js.map": "/Portfolio-React/static/js/main.d23a649c.js.map",
     "787.aeca62f9.chunk.js.map": "/Portfolio-React/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f13b5ff8.css",
-    "static/js/main.e66546ab.js"
+    "static/js/main.d23a649c.js"
   ]
 }
