@@ -2,3 +2,43 @@
     margin-right: 0;
     margin-left: 0;
 }
+
+.pagination-elements, .pagination-elements-arrow {
+    color: white;
+    font-size: 1.4em;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.pagination-elements-arrow {
+    font-size: 1.1em;
+}
+
+.pagination-items-holder, .pagination-arrows-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 40px;
+    min-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.pagination-arrows-holder {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.pagination-items-holder:hover, .pagination-arrows-holder:hover {
+    background-color: rgba(255, 255, 255, 25%);
+    cursor: pointer;
+}
+
+
+
+.pagination-active {
+    background-color: rgba(255, 255, 255, 47%);
+}

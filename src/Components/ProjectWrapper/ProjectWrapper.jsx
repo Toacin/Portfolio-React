@@ -1,5 +1,8 @@
 import './ProjectWrapper.css'
 import Project from '../Projects/project'
+import { useState, useRef } from 'react'
+import { useEffect } from 'react';
+import {AiOutlineLeft, AiOutlineRight} from 'react-icons/ai'
 
 export default function ProjectWrapper() {
     let projectInfo = [
@@ -53,12 +56,68 @@ export default function ProjectWrapper() {
         },
     ]
 
+    const [page, setPage] = useState(1);
+
+    function renderActive(index) {
+        return index === page ? "pagination-active" : null;
+    }
+
+    function nextPage() {
+        if (page !== 4) {
+            setPage(page+1)
+        }
+    }
+
+    function prevPage() {
+        if (page !== 1) {
+            setPage(page-1)
+        }
+    }
+
+    function renderProjects() {
+        let projectsInView;
+        switch(page) {
+            case 1:
+                projectsInView = projectInfo.slice(0,2);
+                break;
+            case 2:
+                projectsInView = projectInfo.slice(2,4);
+                break;
+            case 3:
+                projectsInView = projectInfo.slice(4,6);
+                break;
+            case 4:
+                projectsInView = projectInfo.slice(6);
+                break;           
+        }
+        return projectsInView.map((element) => (
+            <Project key={element.id} projectInfo={element}/>
+        ))
+    }
+
     return (
         <div className="row justify-content-around align-items-stretch py-5 project-wrapper">
-            {projectInfo.map((element) => (
-                <Project key={element.id} projectInfo={element}/>
-            ))}
+            {renderProjects()}
+            <div style={{display: "flex", width: "100%", justifyContent: "center", paddingTop: "70px", alignItems: "center"}}>
+                <div onClick={()=>prevPage()} className='pagination-arrows-holder'>
+                    <p className='pagination-elements-arrow'><AiOutlineLeft /></p>
+                </div>
+                <div onClick={()=>setPage(1)} className={`pagination-items-holder ${renderActive(1)}`}>
+                    <p className='pagination-elements'>1</p>
+                </div>
+                <div onClick={()=>setPage(2)} className={`pagination-items-holder ${renderActive(2)}`}>
+                    <p className='pagination-elements'>2</p>
+                </div>
+                <div onClick={()=>setPage(3)} className={`pagination-items-holder ${renderActive(3)}`}>
+                    <p className='pagination-elements'>3</p>
+                </div>
+                <div onClick={()=>setPage(4)} className={`pagination-items-holder ${renderActive(4)}`}>
+                    <p className='pagination-elements'>4</p>
+                </div>
+                <div onClick={()=>nextPage()} className='pagination-arrows-holder'>
+                    <p className='pagination-elements-arrow'><AiOutlineRight /></p>
+                </div>
+            </div>
         </div>
     )
 }
-
