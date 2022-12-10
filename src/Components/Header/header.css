@@ -1,5 +1,5 @@
 /* Header Styling begins here */
-header {
+.home-header {
     background-color: rgba(0,0,0,70%);
     display: flex;
     padding: 6px;
@@ -7,7 +7,8 @@ header {
     color: white;
     width: 100%;
     position: fixed;
-    z-index: 3;
+    z-index: 10;
+    transition: top 0.3s;
 }
 
 .header-anchor, .header-anchor:visited, .header-anchor:hover, .header-anchor:active {

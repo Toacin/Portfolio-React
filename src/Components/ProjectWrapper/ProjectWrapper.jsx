@@ -3,6 +3,7 @@ import Project from '../Projects/project'
 import { useState, useRef } from 'react'
 import { useEffect } from 'react';
 import {AiOutlineLeft, AiOutlineRight} from 'react-icons/ai'
+import {RiNumber1, RiNumber2, RiNumber3, RiNumber4} from 'react-icons/ri'
 
 export default function ProjectWrapper() {
     let projectInfo = [
@@ -78,16 +79,16 @@ export default function ProjectWrapper() {
         let projectsInView;
         switch(page) {
             case 1:
-                projectsInView = projectInfo.slice(0,2);
+                projectsInView = projectInfo.slice(0,4);
                 break;
             case 2:
-                projectsInView = projectInfo.slice(2,4);
+                projectsInView = projectInfo.slice(4,8);
                 break;
             case 3:
-                projectsInView = projectInfo.slice(4,6);
+                projectsInView = projectInfo.slice(0,4);
                 break;
             case 4:
-                projectsInView = projectInfo.slice(6);
+                projectsInView = projectInfo.slice(4);
                 break;           
         }
         return projectsInView.map((element) => (
@@ -98,21 +99,23 @@ export default function ProjectWrapper() {
     return (
         <div className="row justify-content-around align-items-stretch py-5 project-wrapper">
             {renderProjects()}
-            <div style={{display: "flex", width: "100%", justifyContent: "center", paddingTop: "70px", alignItems: "center"}}>
+
+            {/* pagination */}
+            <div className='pagination-bar'>
                 <div onClick={()=>prevPage()} className='pagination-arrows-holder'>
                     <p className='pagination-elements-arrow'><AiOutlineLeft /></p>
                 </div>
                 <div onClick={()=>setPage(1)} className={`pagination-items-holder ${renderActive(1)}`}>
-                    <p className='pagination-elements'>1</p>
+                    <RiNumber1/>
                 </div>
                 <div onClick={()=>setPage(2)} className={`pagination-items-holder ${renderActive(2)}`}>
-                    <p className='pagination-elements'>2</p>
+                    <RiNumber2/>
                 </div>
                 <div onClick={()=>setPage(3)} className={`pagination-items-holder ${renderActive(3)}`}>
-                    <p className='pagination-elements'>3</p>
+                    <RiNumber3/>
                 </div>
                 <div onClick={()=>setPage(4)} className={`pagination-items-holder ${renderActive(4)}`}>
-                    <p className='pagination-elements'>4</p>
+                    <RiNumber4/>
                 </div>
                 <div onClick={()=>nextPage()} className='pagination-arrows-holder'>
                     <p className='pagination-elements-arrow'><AiOutlineRight /></p>

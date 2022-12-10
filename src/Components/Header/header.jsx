@@ -4,8 +4,19 @@ import {AiFillGithub, AiFillTwitterCircle, AiFillLinkedin} from 'react-icons/ai'
 
 
 export default function Header() {
+    // let prevScrollpos = window.pageYOffset;
+    // window.onscroll = function() {
+    //     let currentScrollPos = window.pageYOffset;
+    //     if (prevScrollpos > currentScrollPos) {
+    //         document.querySelector('.home-header').style.top = '0';
+    //     } else {
+    //         document.querySelector('.home-header').style.top = '-150px';
+    //     }
+    //     prevScrollpos = currentScrollPos;
+    // }
+
     return (
-        <header>
+        <header className='home-header'>
             <div>
                 <img src={ProfilePic} alt="Picture of myself"/>
                 <h2>Toacin Patwary</h2>
