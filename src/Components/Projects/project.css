@@ -56,6 +56,10 @@
     visibility: visible;
 }
 
+.github-icon {
+    margin: 0px 5px;
+}
+
 #onlyDevs {
     background-image: url("../../images/OnlyDevsPage.JPG");
     animation: fadeInAnimation ease 2s;
